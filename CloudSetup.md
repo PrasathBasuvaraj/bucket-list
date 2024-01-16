@@ -29,7 +29,7 @@ aws s3api put-public-access-block \
 
 - Run `aws cloudfront list-distributions` to list distribution
 
-- Run `aws cloudfront create-distribution --distribution-config file://bucket_list.json` to create a cloud front distribution
+- Run `aws cloudfront create-distribution --distribution-config file://cf_bucket_list.json` to create a cloud front distribution
 
 - Run the below command to delete a distribution using it's id
 
