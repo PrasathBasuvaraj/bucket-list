@@ -1,0 +1,6 @@
+name: Bucket List Pipeline Deploy
+
+on:
+  push:
+    branches:
+      - "mail"
